@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "build:registry": "shadcn build",
-    "check": "ultracite check",
     "fix": "ultracite fix",
-    "format": "ultracite fix",
-    "lint": "ultracite check"
+    "lint": "ultracite check",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^19.3.0",
