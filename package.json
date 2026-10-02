@@ -7,6 +7,7 @@
     "build:registry": "shadcn build",
     "fix": "ultracite fix",
     "lint": "ultracite check",
+    "sync:references": "node scripts/sync-references.js",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
